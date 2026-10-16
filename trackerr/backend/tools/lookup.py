@@ -6,7 +6,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0',
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.9',
-    # 'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'Accept-Encoding': 'gzip, deflate, br, zstd',
     'Referer': 'https://www.nzpost.co.nz/tools/tracking',
     'cache-control': 'no-cache',
     'content-type': 'application/json',
@@ -18,6 +18,7 @@ headers = {
     'Sec-Fetch-Site': 'same-site',
     'Priority': 'u=4',
 }
+
 def lookup(tracking_reference):
     params = {
         'tracking_reference': tracking_reference,

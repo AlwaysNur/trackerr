@@ -1,0 +1,90 @@
+{
+    "message_id": "5b8721b0-c844-11f1-8913-06fff18b6d71",
+    "results": [
+        {
+            "tracking_events": [
+                {
+                    "date_time": "2026-08-10T12:00:00Z",
+                    "description": "The sender has allocated a tracking number to your parcel.",
+                    "edifact_code": "997",
+                    "seqref": "8607215462",
+                    "source": "CME",
+                    "status": "Tracking number allocated to parcel"
+                },
+                {
+                    "date_time": "2026-08-11T02:42:52Z",
+                    "depot_name": "AKL East Super Depot",
+                    "description": "Your parcel has been collected from the sender's location by your local courier driver based at AKL East Super Depot. It's on its way to our depot for processing.",
+                    "edifact_code": "13",
+                    "pbu": "068454",
+                    "run_name": "Manukau 1062",
+                    "seqref": "8607207286",
+                    "source": "CME",
+                    "status": "Collected from sender"
+                },
+                {
+                    "date_time": "2026-08-11T04:57:07Z",
+                    "depot_name": "Auckland Processing Centre",
+                    "description": "Your parcel has been processed",
+                    "edifact_code": "8",
+                    "pbu": "128894",
+                    "run_name": "Wiri 2104",
+                    "seqref": "8607538688",
+                    "source": "CME",
+                    "status": "Processed at depot"
+                },
+                {
+                    "date_time": "2026-08-13T01:53:22Z",
+                    "depot_name": "Christchurch Processing Centre",
+                    "description": "Your parcel has been processed",
+                    "edifact_code": "8",
+                    "pbu": "081531",
+                    "run_name": "Christchurch Airport",
+                    "seqref": "8611925221",
+                    "source": "CME",
+                    "status": "Processed at depot"
+                },
+                {
+                    "date_time": "2026-08-13T17:14:41Z",
+                    "depot_name": "Nelson Depot",
+                    "description": "Your parcel is on its way to a rural depot to be processed.",
+                    "edifact_code": "142",
+                    "pbu": "050369",
+                    "run_name": "Nelson 7011",
+                    "seqref": "8613141881",
+                    "source": "CME",
+                    "status": "In transit"
+                },
+                {
+                    "date_time": "2026-08-13T21:08:57Z",
+                    "depot_name": "Nelson Depot",
+                    "description": "Your item is with our courier for delivery. It should be with you today",
+                    "edifact_code": "32",
+                    "pbu": "050369",
+                    "run_name": "Takaka",
+                    "seqref": "8613620082",
+                    "source": "CME",
+                    "status": "With courier for delivery"
+                },
+                {
+                    "date_time": "2026-08-14T01:17:09Z",
+                    "depot_name": "Nelson Depot",
+                    "description": "Your parcel has been delivered by your local courier driver based at Nelson Depot and signed for by \"D5406A ATL\". Any questions? Please <a href=\"https://www.nzpost.co.nz/contact-support/assistance/parcels\">contact us</a>",
+                    "edifact_code": "22",
+                    "pbu": "050369",
+                    "run_name": "Takaka",
+                    "seqref": "8614169225",
+                    "signed_by": {
+                        "name": "D5406A ATL",
+                        "signature": "/zdMTAlhTP8/MVgx/2kKlAr/fwp/TP+cCJxLxks="
+                    },
+                    "source": "CME",
+                    "status": "Delivered"
+                }
+            ],
+            "tracking_reference": "2986680552683301NEL001BU"
+        }
+    ],
+    "status_code": 1,
+    "success": true
+}

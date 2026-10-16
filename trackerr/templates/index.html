@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trackerr</title>
+    <link rel="stylesheet" href="/frontend/css/index.css">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <script src="/frontend/js/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lookup tracking code</h1>
+        <form action="/api/package/add" method="post">
+            <input type="text" name="description" placeholder="What am I?" required>
+            <input type="text" name="tracking_reference" placeholder="Enter tracking code..." required><br><br>
+            <button type="submit">Lookup</button>
+        </form>
+        <ul>
+            {% for package in packages %}
+            <li>
+                {{ package.1 }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+</html>
